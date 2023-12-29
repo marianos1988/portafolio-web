@@ -6,9 +6,14 @@ type Props = {}
 export const Index = (props: Props) => {
   return (
     <main className='container-index'>
-      <button className=''>Ingresar</button>
+      <div>
+        <button className=''>Ingresar</button>
+      </div>
+
       <section className="banner">
-        <img className='foto-yo' src="http://localhost:5173/src/img/yo.jpg" alt="Foto de MSY" />
+          
+          <img className='foto-yo' src="http://localhost:5173/src/img/yo.jpg" alt="Foto de MSY" />
+
         <div className="banner-content">
           <h2>Bienvenido!</h2>
           <h2>Portafolio MSY</h2>
