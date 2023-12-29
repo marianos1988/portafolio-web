@@ -1,13 +1,14 @@
 import React from 'react'
 import "../styles/Index.css"
+import { ButtonIngresar } from '../components/ButtonIngresar'
 
 type Props = {}
 
 export const Index = (props: Props) => {
   return (
     <main className='container-index'>
-      <div>
-        <button className=''>Ingresar</button>
+      <div className='box-btn-ingresar'>
+        <ButtonIngresar texto={"Ingresar"}></ButtonIngresar>
       </div>
 
       <section className="banner">
