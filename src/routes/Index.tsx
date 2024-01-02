@@ -2,9 +2,7 @@ import React from 'react'
 import "../styles/Index.css"
 import { ButtonIngresar } from '../components/ButtonIngresar'
 
-type Props = {}
-
-export const Index = (props: Props) => {
+export const Index = () => {
   return (
     <main className='container-index'>
       <div className='box-btn-ingresar'>
