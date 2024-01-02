@@ -1,5 +1,6 @@
 import "../styles/Home.css"
 import React from 'react'
+import {NavLink} from "react-router-dom";
 
 type Props = {
   id: number,
@@ -15,9 +16,9 @@ export const Nav = ({ id,tittle,subtittle1,subtittle2,subtittle3 }: Props) => {
     <div key={id}>
       <h2>{tittle}</h2>
       <nav>
-        <a style={{ animationDelay: "0.8s" }}>{subtittle1}</a>
-        <a style={{ animationDelay: "0.9s" }}>{subtittle2}</a>
-        <a style={{ animationDelay: "1s" }}>{subtittle3}</a>
+        <NavLink to={`/Informacion`}><div className="nav-pointer" style={{ animationDelay: "0.8s" }}>{subtittle1}</div></NavLink>
+        <NavLink to={`/`}><div className="nav-pointer" style={{ animationDelay: "0.9s" }}>{subtittle2}</div></NavLink>
+        <NavLink to={`/`}><div className="nav-pointer" style={{ animationDelay: "1s" }}>{subtittle3}</div></NavLink>
       </nav>
     </div>
   )

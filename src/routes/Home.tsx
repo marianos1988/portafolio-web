@@ -5,6 +5,8 @@ import "swiper/css/navigation";
 import "../styles/Home.css";
 import { useState } from "react";
 import { Nav } from "../components/Nav";
+import { Informacion } from "./Informacion";
+
 
 const data = [
   { 
@@ -30,7 +32,6 @@ const data = [
   },
 ]
 
-
 export const Home = () => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -40,27 +41,30 @@ export const Home = () => {
   
     return (
       <>
-        <div className={`background ${openClass}`}></div>
-        <button className={`burger ${openClass}`} onClick={toggleMenu}></button>
-        <div className={`menu ${openClass}`}>
-          <Swiper speed={750} modules={[Navigation]} navigation>
+        <main className="container-home">
+          <div className={`background ${openClass}`}></div>
+          <button className={`burger ${openClass}`} onClick={toggleMenu}></button>
+          <div className={`menu ${openClass}`}>
+            <Swiper speed={750} modules={[Navigation]} navigation>
 
-            {
-              data.map(data => (
-                <SwiperSlide key={data.id}>
-                  <Nav
-                    id={data.id}
-                    key={data.id}
-                    tittle={data.tittle}
-                    subtittle1={data.subtittle1}
-                    subtittle2={data.subtittle2}
-                    subtittle3={data.subtittle3}
-                  />
-                </SwiperSlide>
-              ))
-            }
-          </Swiper>
-        </div>
+              {
+                data.map(data => (
+                  <SwiperSlide key={data.id}>
+                    <Nav
+                      id={data.id}
+                      key={data.id}
+                      tittle={data.tittle}
+                      subtittle1={data.subtittle1}
+                      subtittle2={data.subtittle2}
+                      subtittle3={data.subtittle3}
+                    />
+                  </SwiperSlide>
+                ))
+              }
+            </Swiper>
+          </div>
+          <Informacion></Informacion>
+        </main>
       </>
     );
   
