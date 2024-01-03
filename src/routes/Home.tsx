@@ -5,7 +5,7 @@ import "swiper/css/navigation";
 import "../styles/Home.css";
 import { useState } from "react";
 import { Nav } from "../components/Nav";
-import { Informacion } from "./Informacion";
+
 
 
 const data = [
@@ -63,7 +63,6 @@ export const Home = () => {
               }
             </Swiper>
           </div>
-          <Informacion></Informacion>
         </main>
       </>
     );
