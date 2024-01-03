@@ -28,7 +28,7 @@
     background-position: 400%;
   }
 }
-.btn-ingresar:before {
+.btn-ingresar:before { 
   content: "";
   position: absolute;
   top: -5px;

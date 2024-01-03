@@ -34,17 +34,14 @@ const data = [
 
 export const Home = () => {
 
-    const [isOpen, setIsOpen] = useState(false);
-    const toggleMenu = () => setIsOpen(!isOpen);
-    const openClass = isOpen ? "open" : "";
+
 
   
     return (
       <>
         <main className="container-home">
-          <div className={`background ${openClass}`}></div>
-          <button className={`burger ${openClass}`} onClick={toggleMenu}></button>
-          <div className={`menu ${openClass}`}>
+          <div className={`background open`}></div>
+          <div className={`menu open`}>
             <Swiper speed={750} modules={[Navigation]} navigation>
 
               {
