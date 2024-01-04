@@ -1,13 +1,13 @@
-import React from 'react'
 import "../styles/Perfil.css"
 import { ButtonVolver } from '../components/ButtonVolver'
+
 
 
 
 export const Perfil = () => {
   return (
     <>
-
+ 
       <main className='container-perfil'>
         <article>
           <div className='container-boton-volver'>
