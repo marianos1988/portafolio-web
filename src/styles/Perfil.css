@@ -8,7 +8,6 @@
   background-image: url("../assets/bg.jpg");
   background-size:auto;
   background-repeat: no-repeat;
-  background-position: center;
   transition: 0.5s;
   animation: aparecer .5s ease-in;
   padding-bottom: 30px;
@@ -54,7 +53,10 @@ align-items: center;
 }
 
 .container-perfil .box-photo-text p {
+  margin-left: 10px;
   width: 400px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
 }
 
 .imgBox {
@@ -97,8 +99,9 @@ align-items: center;
 
 .content h2 {
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: white;
+  transform: translate(2px,13px);
   
 }
 
@@ -107,12 +110,19 @@ align-items: center;
   font-size: 1.4rem;
   font-weight: 300;
   letter-spacing: 2px;
+  transform: translate(11px,-8px);
+}
+
+@media (min-width: 551px) AND (max-width:847px) {
+  .container-perfil {
+    height: 100%;
+  }
 }
 
 @media (min-width: 360px) AND (max-width: 550px) {
 
   .container-perfil {
-    height: inherit;
+    height: 100%;
   }
   .container-perfil .box-photo-text .box-perfil:hover .content {
     transform: translate(0, 3.5rem);
