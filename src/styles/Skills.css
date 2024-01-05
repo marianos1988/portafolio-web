@@ -4,9 +4,7 @@
     width: 100%;
     height: inherit;
     background-image: url("../assets/bg.jpg");
-
     background-repeat: no-repeat;
-  
     transition: 0.5s;
     animation: aparecer .5s ease-in;
     padding-bottom: 30px;

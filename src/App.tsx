@@ -3,6 +3,7 @@ import { Index } from './routes/Index'
 import { Home } from './routes/Home'
 import { Perfil } from './routes/Perfil'
 import { Skills } from './routes/Skills'
+import { Educacion } from './routes/Educacion'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/*" element= { <Navigate to="/" /> }></Route>
           <Route path='/Perfil' element= { <Perfil></Perfil> }></Route>
           <Route path='/Skills' element= { <Skills></Skills> }></Route>
+          <Route path='/Educacion' element= { <Educacion></Educacion> }></Route>
         </Routes>
     </>
   )
