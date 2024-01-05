@@ -27,15 +27,32 @@
   height: 100vh;
   background: #050808;
 
+} 
+
+.banner .card-index {
+  padding: 60px 25px 60px 25px;
+  border: 3px solid #03ffff;
+  border-radius: 20px;
+  opacity: .50;
 }
 
-.banner > img {
-  outline: 5px solid #03ffff;
+.banner .card-index:hover {
+  padding: 60px 25px 60px 25px;
+  border: 3px solid #03ffff;
+  border-radius: 20px;
+  animation: aparecerCard .5s forwards;
+}
+
+
+
+.banner .card-index img {
+
   transform: translateY(-10px);
   width: 150px;
   transition: 0.1s linear;
 
 }
+
 
 .banner h2 {
   font-weight: 500;
@@ -50,7 +67,41 @@
   opacity: 0.7;
 }
 
-@media (width >= 420px) {
+@media (min-width: 360px) AND (max-width:419px) {
+
+  .banner .card-index {
+    padding: 30px 25px 30px 25px;
+    border: 3px solid #03ffff;
+    border-radius: 20px;
+    opacity: .50;
+    font-size: .8rem;
+
+  }
+  
+  .banner .card-index:hover {
+    padding: 30px 15px 30px 15px;
+    border: 3px solid #03ffff;
+    border-radius: 20px;
+    animation: aparecerCard .5s forwards;
+  }
+
+  .banner .card-index img {
+
+    transform: translateY(-10px);
+    width: 80px;
+    transition: 0.1s linear;
+  
+  }
+
+  .banner-content p {
+    font-size: .8rem;
+  }
+  .banner-content h2 {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width:420px) AND (max-width: 649px) {
 
   .banner {
     transform: translateY(-50px);
@@ -58,6 +109,41 @@
   .banner > img {
     width: 150px;
     transform: translateY(-10px);
+  }
+
+  .banner .card-index {
+    padding: 35px 15px 35px 15px;
+    border: 3px solid #03ffff;
+    border-radius: 20px;
+    opacity: .50;
+    font-size: .9rem;
+    transform: translateY(25px);
+  }
+  
+  .banner .card-index:hover {
+    padding: 35px 15px 35px 15px;
+    border: 3px solid #03ffff;
+    border-radius: 20px;
+    animation: aparecerCardBotRes .5s forwards;
+  }
+
+  .banner .card-index img {
+
+    transform: translateY(-10px);
+    width: 100px;
+    transition: 0.1s linear;
+  
+  }
+
+  .banner-content {
+    transform: translateY(20px);
+  }
+
+  .banner-content p {
+    font-size: .9rem;
+  }
+  .banner-content h2 {
+    font-size: .9rem;
   }
 }
 @media (width >= 999px) {
@@ -119,6 +205,28 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes aparecerCard {
+  0% {
+    opacity: .5;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-25px);
+  }
+}
+
+@keyframes aparecerCardBotRes {
+  0% {
+    opacity: .5;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-7px);
   }
 }
 
