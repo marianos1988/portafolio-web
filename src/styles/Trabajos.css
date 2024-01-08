@@ -1,0 +1,104 @@
+.container-trabajos {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/bg.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    animation: aparecer .5s ease-in;
+    padding-bottom: 30px;
+}
+
+.container-boton-volver {
+    transform: translate(-20px,20px);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.container-trabajos article h1 {
+ 
+    font-size: 45px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container-box-trabajos {
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+    margin: 60px 0px 0px 0px;
+}
+
+.container-box-trabajos .box-trabajo {
+    width: 90%;
+    height: 150px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container-box-trabajos .box-trabajo:hover {
+
+    height: 100%;
+    animation: aparecerBorde 1s infinite;
+
+}
+
+.container-box-trabajos .box-trabajo .fechas-trabajo {
+    margin-right: 35px;
+    min-width: 120px; 
+}
+
+.container-box-trabajos .box-trabajo .desc-trabajo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+  
+}
+
+.container-box-trabajos .box-trabajo .desc-trabajo h2 {
+    margin-bottom: 35px;
+}
+.container-box-trabajos .box-trabajo .desc-trabajo p {
+    margin-bottom: 25px;
+}
+
+@media (min-width: 360px) AND (max-width: 754px) {
+    .container-trabajos {
+        height: 100%;
+    }
+
+
+    .container-box-trabajos .box-trabajo {
+        width: 95%;
+        margin-bottom: 80px;
+        height: 100%;
+    }
+
+    .container-box-trabajos .box-trabajo .desc-trabajo, .container-box-trabajos .box-trabajo .fechas-trabajo {
+
+        transform: translateX(-10px);
+    }
+
+    .container-box-trabajos .box-trabajo .fechas-trabajo {
+        margin-right: 5px;
+        min-width: 95px; 
+    }
+}
+
+@keyframes aparecerBorde {
+    0% {
+      border-bottom: 0px solid #03ffff;;
+      border-right: 0px solid #03ffff;;
+      border-radius: 30px;
+    }
+    100% {
+        border-bottom: 3px solid #03ffff;
+        border-right: 3px solid #03ffff;
+        border-radius: 30px;
+    }
+  }
