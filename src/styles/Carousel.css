@@ -5,8 +5,6 @@
   height: 100%;
   width: 100%;
   margin: auto;
-
-
 }
 
 .carousel-item {
@@ -18,7 +16,6 @@
   padding: 0px 0px;
   opacity: 0;
   transition: all 0.5s ease-in-out;
-
 
 }
 .arrow{
@@ -41,37 +38,51 @@
   transform: translateY(-50%) rotate(-45deg);
 }
 
-[id^= "item"] {
+[id^= "item-sys-gym"] {
   display: none;
 
 }
-.item-1 {
+.item-1-sys-gym {
   z-index: 2;
   opacity: 1;
   background: url('../img/proyectos/sys-gym1.jpeg');
   background-size: cover;
   
 }
-.item-2 {
+.item-2-sys-gym {
   background: url('../img/proyectos/sys-gym2.jpeg');
   background-size: cover;
 }
-.item-3 {
+.item-3-sys-gym {
   background: url('../img/proyectos/sys-gym3.jpeg');
   background-size: cover;
 }
+.item-4-sys-gym {
+  background: url('../img/proyectos/sys-gym4.jpeg');
+  background-size: cover;
+}
+.item-5-sys-gym {
+  background: url('../img/proyectos/sys-gym5.jpeg');
+  background-size: cover;
+}
+.item-6-sys-gym {
+  background: url('../img/proyectos/sys-gym6.jpeg');
+  background-size: cover;
+}
+.item-7-sys-gym {
+  background: url('../img/proyectos/sys-gym7.jpeg');
+  background-size: cover;
+}
 
-*:target ~ .item-1{
+*:target ~ .item-1-sys-gym{
   opacity: 0;
   
 }
-#item-1:target ~ .item-1 {
+#item-1-sys-gym:target ~ .item-1-sys-gym {
   opacity: 1;
 
-
-
 }
-#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+#item-2-sys-gym:target ~ .item-2-sys-gym, #item-3-sys-gym:target ~ .item-3-sys-gym,#item-4-sys-gym:target ~ .item-4-sys-gym, #item-5-sys-gym:target ~ .item-5-sys-gym, #item-6-sys-gym:target ~ .item-6-sys-gym, #item-7-sys-gym:target ~ .item-7-sys-gym {
   z-index: 3;
   opacity: 1;
 } 
