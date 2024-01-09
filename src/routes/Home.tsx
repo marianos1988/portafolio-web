@@ -19,7 +19,7 @@ const data = [
     id: 2,
     tittle: "Portafolio",
     subtittle1: "Trabajos",
-    subtittle2: "Projectos",
+    subtittle2: "Proyectos",
     subtittle3: "GitHub",
   },
   { 
