@@ -20,6 +20,7 @@
 }
 
 .container-proyectos article h1 {
+
  
     font-size: 45px;
     width: 100%;
@@ -80,11 +81,10 @@
     position: relative;
     display: flex;
     margin: auto;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     height: 400px;
     margin-bottom: 20px;
-    overflow-x: scroll;
 
 }
 

@@ -6,6 +6,9 @@ import { Carousel } from '../components/Carousel'
 
 
 
+
+
+
 export const Proyectos = () => {
 
   
@@ -29,11 +32,9 @@ export const Proyectos = () => {
               </p>
             </div>
             <div className="carrousel-proyecto">
-              <Carousel
-                project='sys-gym'
-              ></Carousel>
+              <Carousel project={''}></Carousel>
             </div>
-          </div>
+          </div> 
           
         </div>
       </article>

@@ -1,10 +1,11 @@
 
 
 .carousel-wrapper {
+
   padding: 10px;
   height: 100%;
   width: 100%;
-  margin: auto;
+
 }
 
 .carousel-item {
@@ -43,35 +44,52 @@
 
 }
 .item-1-sys-gym {
+  
   z-index: 2;
   opacity: 1;
   background: url('../img/proyectos/sys-gym1.jpeg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
   
 }
 .item-2-sys-gym {
   background: url('../img/proyectos/sys-gym2.jpeg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .item-3-sys-gym {
   background: url('../img/proyectos/sys-gym3.jpeg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .item-4-sys-gym {
   background: url('../img/proyectos/sys-gym4.jpeg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .item-5-sys-gym {
   background: url('../img/proyectos/sys-gym5.jpeg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .item-6-sys-gym {
   background: url('../img/proyectos/sys-gym6.jpeg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 .item-7-sys-gym {
   background: url('../img/proyectos/sys-gym7.jpeg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 *:target ~ .item-1-sys-gym{
