@@ -27,7 +27,7 @@ export const Proyectos = () => {
               </p>
             </div>
             <div className="carrousel-proyecto">
-              <Carousel cant={7}></Carousel>
+              <Carousel cant={7} project='sys-gym'></Carousel>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ export const Proyectos = () => {
               </p>
             </div>
             <div className="carrousel-proyecto">
-
+              <Carousel cant={3} project='jbombicino'></Carousel>
             </div>
           </div> 
           
