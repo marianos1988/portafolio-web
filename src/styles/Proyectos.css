@@ -5,7 +5,7 @@
     height: 100%;
     background-image: url("../assets/bg.jpg");
     background-size:auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     transition: 0.5s;
     animation: aparecer .5s ease-in;
     padding-bottom: 30px;
@@ -42,6 +42,7 @@
 
 .container-box-proyectos .box-proyectos {
     display: flex;
+    width: 85%;
     flex-direction: row;
     flex-wrap: wrap;
     border: 2px solid white;

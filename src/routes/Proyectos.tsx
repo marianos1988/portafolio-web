@@ -40,13 +40,38 @@ export const Proyectos = () => {
                 <br />
                 Es una gran muestra de mis habilidades, del buen manejo que llevo para diseñar una pagina web responsive adaptable a cualquier dispositivo.
                 <br />
+                <br />
                 Sitio web: <a href="https://www.jbombicino.com.ar/" target="_blank">https://www.jbombicino.com.ar</a>
+                <br />
                 <br />
                 Link Github: <a href="https://github.com/marianos1988/web-clinica-jb" target="_blank">https://github.com/marianos1988/web-clinica-jb</a>
               </p>
             </div>
             <div className="carrousel-proyecto">
               <Carousel cant={3} project='jbombicino'></Carousel>
+            </div>
+          </div> 
+
+          <div className='box-proyectos'>
+            <div className='desc-proyecto'>
+              <h4>Ago. 2023 - Dec. 2023</h4>
+              <h2>Sys Turnos:</h2>
+              <p>
+              Este es mi segundo sistema terminado por mi, que administra los turnos en una peluquería, pueden cargar un turno nuevo con los datos requeridos, y luego podes filtrar por fecha, editarlos y eliminarlos.
+              <br />
+              Este proyecto es una gran muestra de como utilizo las aptitudes mencionadas.
+              <br />
+              El proyecto esta subido en mi repositorio en GitHub.
+              <br />
+              <br />
+              Proyecto en Github: https://github.com/marianos1988/sys-turnos
+              <br />
+              <br />
+              Proyecto para probar (Solo Frontend): https://sys-turnos.netlify.app/
+              </p>
+            </div>
+            <div className="carrousel-proyecto">
+              <Carousel cant={4} project='sys-turnos'></Carousel>
             </div>
           </div> 
           

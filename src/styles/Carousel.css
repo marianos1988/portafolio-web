@@ -99,6 +99,43 @@
     background-position: center;
     animation: aparecer .5s ease-in;
 }
+.carousel-sys-turnos-1 {
+    background-image: url("/src/img/proyectos/sys-turnos1.jpeg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: aparecer .5s ease-in;
+}
+
+.carousel-sys-turnos-2 {
+    background-image: url("/src/img/proyectos/sys-turnos2.jpeg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: aparecer .5s ease-in;
+}
+.carousel-sys-turnos-3 {
+    background-image: url("/src/img/proyectos/sys-turnos3.jpeg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: aparecer .5s ease-in;
+}
+.carousel-sys-turnos-4 {
+    background-image: url("/src/img/proyectos/sys-turnos4.jpeg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: aparecer .5s ease-in;
+}
 
 .container-carousel img {
     
