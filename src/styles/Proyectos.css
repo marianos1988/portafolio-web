@@ -37,13 +37,15 @@
     width: 95%;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
+
 }
 
 .container-box-proyectos .box-proyectos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border: 2px solid white;
+    margin: 20px
 
 }
 
@@ -84,8 +86,21 @@
     width: 100%;
     padding: 10px;
     height: 400px;
+    min-height: 200px;
     margin-bottom: 20px;
 
+}
+
+@media (min-width: 360px) AND (max-width: 500px) {
+    .container-box-proyectos .box-proyectos .carrousel-proyecto {
+        height: 200px;
+    }
+}
+
+@media (min-width: 501px) AND (max-width: 600px) {
+    .container-box-proyectos .box-proyectos .carrousel-proyecto {
+        height: 300px;
+    }
 }
 
 @media (min-width:360px) AND (max-width: 600px) {
@@ -111,14 +126,7 @@
         
         font-size: 14px;
     }
-
 }
-
-@media (min-width:601px) AND (max-width: 800px) {
-
-    
-}
-
 
 
 
