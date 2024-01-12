@@ -1,0 +1,126 @@
+
+
+.cards {
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+  color: black;
+}
+
+.cards article {
+  position: relative;
+  perspective: 1000px;
+  width: 500px;
+  height: 300px;
+}
+
+.cards article header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 26px;
+}
+
+.cards article header h2 {
+  font-size: 30px;
+  color:black;
+  margin: auto;
+}
+
+.cards article .front,
+.cards article .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  backface-visibility: hidden;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+  padding: 24px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.cards article .back  {
+  transform: rotateY(180deg);
+}
+
+.cards input {
+  position: absolute;
+  scale: 0;
+}
+
+.cards input:checked ~ article .back {
+  transform: rotateY(0);
+}
+
+.cards input:checked ~ article .front {
+  transform: rotateY(-180deg);
+}
+
+
+
+#summary :is(var, h3) {
+  color: #3b82f6;
+}
+
+#overdue :is(var, h3) {
+  color: #ef4444;
+}
+
+#features :is(var, h3) {
+  color: #22c55e;
+}
+
+.cards article .back .btn-acceder {
+ color: black;
+  font-size: 35px;
+}
+
+.cards article p {
+  margin-top: 76px;
+}
+
+.cards article .front img {
+  width: 180px;
+  height: 180px;
+}
+
+.cards article .back img {
+  width: 180px;
+  height: 180px;
+}
+
+.cards article .back img {
+  transform: translateY(-70px);
+}
+
+.cards article .back a {
+  text-decoration: none;
+}
+
+.cards article .back .btn-acceder {
+  transform: translateY(-70px);
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+
+}
+
+.cards article .back .btn-acceder:hover {
+color: #03ffff;
+transition: all .5s ease-in;
+
+}
+
+@media (min-width: 360px) AND (max-width:500px) {
+  .cards {
+    transform: scale(.7);
+    margin-top: 50px;
+  }
+}

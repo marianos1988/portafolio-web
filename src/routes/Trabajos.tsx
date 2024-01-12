@@ -3,7 +3,7 @@ import "../styles/Trabajos.css"
 import { ButtonVolver } from '../components/ButtonVolver'
 
 
-export const Trabajos = () => {
+export const Trabajos = () => { 
   return (
 		<main className='container-trabajos'>
 		<article>
