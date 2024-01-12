@@ -87,6 +87,8 @@
 }
 
 .cards article .front img {
+  border-radius: 50%;
+  background-color: #ffffff;
   width: 180px;
   height: 180px;
 }
@@ -94,11 +96,14 @@
 .cards article .back img {
   width: 180px;
   height: 180px;
+  background-color: #ffffff;
+  border-radius: 50%;
 }
 
 .cards article .back img {
   transform: translateY(-70px);
 }
+
 
 .cards article .back a {
   text-decoration: none;
@@ -110,6 +115,10 @@
   border-radius: 25px;
   color: white;
 
+}
+
+.cards article .back .btn-acceder-email {
+  font-size: 28px;
 }
 
 .cards article .back .btn-acceder:hover {

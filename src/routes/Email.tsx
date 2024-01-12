@@ -1,21 +1,21 @@
 import React from 'react'
+import "../styles/Email.css";
+import { Card } from '../components/Card'
 import { ButtonVolver } from '../components/ButtonVolver'
-import "../styles/Github.css";
-import { Card } from "../components/Card";
 
 type Props = {}
 
- export const Github = (props: Props) => {
+export const Email = (props: Props) => {
   return (
-    <main className='container-github'>
+    <main className='container-email'>
       <article>
         <div className='container-boton-volver'>
-					<ButtonVolver></ButtonVolver>
-				</div>
-        <h1>GitHub</h1>
+          <ButtonVolver></ButtonVolver>
+        </div>
+        <h1>Email</h1>
         <div className='box-card'>
-          <Card
-            tittle='GitHub'
+          <Card 
+            tittle='Email'
           />
         </div>
       </article>
