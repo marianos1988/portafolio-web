@@ -1,5 +1,5 @@
 .btn-volver {
-
+    font-size: 15px;
     border: none;
     color: #ffffff;
     width: 9em;
@@ -41,5 +41,17 @@
   }
   .btn-volver:hover::before {
     filter: blur(20px);
+  }
+
+  @media (min-width:360px) AND (max-width:450px)  {
+    .btn-volver {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width:451px) AND (max-width:550px)  {
+    .btn-volver {
+      font-size: 13px;
+    }
   }
   

@@ -2,6 +2,7 @@
 
 .btn-ingresar {
   position: absolute;
+  font-size: 15px;
   border: none;
   color: #ffffff;
   width: 9em;
@@ -50,6 +51,7 @@
   width: 5em;
   height: 2em;
   transform: translate(-10px,35px);
+  font-size: 12px;
  } 
 }
 
@@ -58,5 +60,6 @@
    width: 5em;
    height: 2em;
    transform: translate(-20px,35px);
+   font-size: 13px;
   } 
  }

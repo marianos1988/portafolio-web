@@ -187,3 +187,14 @@ button {
     opacity: 1;
   }
 }
+
+
+@media (min-width:360px) AND (max-width: 460px) {
+
+  .container-home .menu div h2 {
+    transform: translateX(30%);
+  }
+  .container-home .menu div nav {
+    transform: translateX(30%);
+  }
+}

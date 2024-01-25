@@ -41,10 +41,10 @@
 
 .container-box-skills .box-skills {
     margin: 15px;
-    background-color: antiquewhite;
+    background-color: rgb(163, 162, 162);
     border: 4px solid #03ffff;
     border-radius: 8%;
-    color: black;
+
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -53,7 +53,8 @@
 }
 
 .container-box-skills .box-skills .tittle-skills {
-font-size: 2rem;
+    font-size: 2rem;
+    color: black;
 }
 
 .container-box-skills .box-skills img {

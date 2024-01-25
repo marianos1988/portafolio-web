@@ -33,8 +33,6 @@ const data = [
 
 export const Home = () => {
 
-
-
   
     return (
       <>
@@ -47,6 +45,7 @@ export const Home = () => {
                 data.map(data => (
                   <SwiperSlide key={data.id}>
                     <Nav
+                      
                       id={data.id}
                       key={data.id}
                       tittle={data.tittle}

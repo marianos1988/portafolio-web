@@ -187,16 +187,6 @@ import Radio  from '@mui/material/Radio';
                   color='success'
                   size='medium'
                 />
-                <Radio
-                  checked={true}
-                  color='secondary'
-                  size='medium'
-                />
-                <Radio
-                  checked={true}
-                  color='secondary'
-                  size='medium'
-                />
               </div>
             </div>
             <div className='box-skills'>
