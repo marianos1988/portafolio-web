@@ -16,14 +16,14 @@ export const Perfil = () => {
           <div className='box-photo-text'>
             <div className="box-perfil">
               <div className="imgBox">
-                <img src="https://bit.ly/3Y5oMQG" alt="" />
+                <img src="src/img/perfil.jpg" alt="Perfil" />
               </div>
               <div className="content">
                 <h2>Mariano Szencis Yans</h2>
                   <span>Desarrollador Full Stack</span>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quo vitae eum in odit expedita, sit officia, hic et deserunt dolor ex? Accusamus, soluta beatae. Tenetur animi nam expedita necessitatibus.
+            <p>Soy un desarrollador Full Stack con mas de 2 años trabajando de manera Freelance con proyectos 100% propios. Poseo conocimientos en HTML, CSS, Javascript, NodeJS, Express, ReactJS, Typescript y MySQL. Mi meta trazada es seguir aprendiendo y aceptar nuevos desafíos que me propongan.
             </p>
           </div>
 

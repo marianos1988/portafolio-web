@@ -15,13 +15,14 @@ export const Trabajos = () => {
 					<div className='box-trabajo'>
 						<div className='fechas-trabajo'>Jul. 2010 - Actualidad</div>
 						<div className='desc-trabajo'>
+              <h2>Decreditos S.A.</h2>
 							<h2>Soporte de aplicaciones a usuarios - Administrador de redes</h2>
 							<p>
 								- Brindar al usuario soporte por diferentes medios para buscar una solución al problema del mismo, ya sean físicas (hardware) o lógicas (software) de cualquier tipo de dispositivo electrónico.
               </p>
-              <p>
-                - Responsable de tareas de monitoreo de consumo ancho de banda, armado de politicas y reglas para salidas a internet. Estructuración y separación de redes lógicas a través de Vlans. Equipo Administrable Fortinet.
-              </p>
+							<p>
+								- Responsable de tareas de monitoreo de consumo ancho de banda, armado de politicas y reglas para salidas a internet. Estructuración y separación de redes lógicas a través de Vlans. Equipo Administrable Fortinet.
+							</p>
 						</div>
 					</div>
 				</div>
