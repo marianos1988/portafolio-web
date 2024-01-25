@@ -1,11 +1,9 @@
-import React from 'react'
+
 import "../styles/Email.css";
 import { Card } from '../components/Card'
 import { ButtonVolver } from '../components/ButtonVolver'
 
-type Props = {}
-
-export const Email = (props: Props) => {
+export const Email = () => {
   return (
     <main className='container-email'>
       <article>

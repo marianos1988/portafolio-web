@@ -1,11 +1,9 @@
-import React from 'react'
+
 import { ButtonVolver } from '../components/ButtonVolver'
 import "../styles/Github.css";
 import { Card } from "../components/Card";
 
-type Props = {}
-
- export const Github = (props: Props) => {
+ export const Github = () => {
   return (
     <main className='container-github'>
       <article>

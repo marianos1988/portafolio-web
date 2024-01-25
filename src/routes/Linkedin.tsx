@@ -1,11 +1,10 @@
-import React from 'react'
+
 import { ButtonVolver } from '../components/ButtonVolver'
 import { Card } from '../components/Card'
 import "../styles/Linkedin.css"
 
-type Props = {}
 
-export const Linkedin = (props: Props) => {
+export const Linkedin = () => {
   return (
     <main className='container-linkedin'>
       <article>

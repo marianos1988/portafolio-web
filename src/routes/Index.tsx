@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "../styles/Index.css"
 import { ButtonIngresar } from '../components/ButtonIngresar'
 

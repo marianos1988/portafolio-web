@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "../styles/Trabajos.css"
 import { ButtonVolver } from '../components/ButtonVolver'
 

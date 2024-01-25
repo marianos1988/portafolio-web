@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { ButtonVolver } from '../components/ButtonVolver'
 import "../styles/Proyectos.css"
 import { Carousel } from '../components/Carousel'

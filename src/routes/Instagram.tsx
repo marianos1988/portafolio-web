@@ -1,11 +1,10 @@
-import React from 'react'
+
 import "../styles/Instagram.css";
 import { ButtonVolver } from '../components/ButtonVolver';
 import { Card } from '../components/Card';
 
-type Props = {}
 
-export const Instagram = (props: Props) => {
+export const Instagram = () => {
   return (
     <main className='container-instagram'>
       <article>

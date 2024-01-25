@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "../styles/Skills.css"
 import { ButtonVolver } from '../components/ButtonVolver'
 import Radio  from '@mui/material/Radio';
