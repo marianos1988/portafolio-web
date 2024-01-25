@@ -19,6 +19,6 @@ type Props = {}
           />
         </div>
       </article>
-    </main>
+    </main> 
   )
 }

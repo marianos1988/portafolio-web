@@ -93,6 +93,11 @@
   height: 180px;
 }
 
+.cards article .front .img-Instagram {
+  border-radius: 10%;
+  transform: scale(.8);
+} 
+
 .cards article .back img {
   width: 180px;
   height: 180px;
@@ -110,7 +115,7 @@
 }
 
 .cards article .back .btn-acceder {
-  transform: translateY(-70px);
+  transform: translateY(-50px);
   background-color: black;
   border-radius: 25px;
   color: white;
@@ -125,6 +130,16 @@
 color: #03ffff;
 transition: all .5s ease-in;
 
+}
+
+.cards article .back .img-perfil-instagram {
+
+  width: 150px;
+  height: 150px;
+}
+
+.cards article .back .a-instagram {
+  transform: translateY(20px);
 }
 
 @media (min-width: 360px) AND (max-width:500px) {

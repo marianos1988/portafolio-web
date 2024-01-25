@@ -8,6 +8,8 @@ import { Trabajos } from './routes/Trabajos'
 import { Proyectos } from './routes/Proyectos'
 import { Github } from './routes/Github'
 import { Email } from './routes/Email'
+import { Instagram } from './routes/Instagram'
+import { Linkedin } from './routes/Linkedin'
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
           <Route path='/Proyectos' element={ <Proyectos></Proyectos >}></Route>
           <Route path='/Github' element={ <Github></Github> }></Route>
           <Route path='/Email' element={ <Email></Email> }></Route>
+          <Route path='/Instagram' element={ <Instagram></Instagram> }></Route>
+          <Route path='/LinkedIn' element= { <Linkedin></Linkedin> }></Route>
         </Routes>
     </>
   )
