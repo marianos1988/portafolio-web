@@ -29,7 +29,7 @@ export const Educacion = () => {
               <div className='fechas-educacion'>Abr. 2023 - Actualidad</div>
               <div className='desc-educacion'>
                 <h2>Ingles</h2>
-                <h3>Me encuentro cursando actualmente de manera particular<br /><br /> Nivel: Intermedio
+                <h3>Me encuentro cursando actualmente de manera particular<br /> Nivel: Intermedio
                 </h3>
               </div>
             </div>

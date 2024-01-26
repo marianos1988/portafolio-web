@@ -1,5 +1,6 @@
 import "../styles/Perfil.css"
 import { ButtonVolver } from '../components/ButtonVolver'
+import imgPerfil from "../assets/img/perfil.jpg";
 
 
 
@@ -16,7 +17,7 @@ export const Perfil = () => {
           <div className='box-photo-text'>
             <div className="box-perfil">
               <div className="imgBox">
-                <img src="src/img/perfil.jpg" alt="Perfil" />
+                <img src={imgPerfil} alt="Perfil" />
               </div>
               <div className="content">
                 <h2>Mariano Szencis Yans</h2>

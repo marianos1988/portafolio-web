@@ -179,6 +179,15 @@ button {
   transform: scaleX(1);
 }
 
+.container-home .menu div nav {
+
+  text-align: center;
+}
+.container-home .menu div h2 {
+
+  text-align: center;
+}
+
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -189,12 +198,14 @@ button {
 }
 
 
-@media (min-width:360px) AND (max-width: 460px) {
+/* @media (min-width:360px) AND (max-width: 460px) {
 
   .container-home .menu div h2 {
-    transform: translateX(30%);
+    width: 100%;
+    text-align: center;
   }
   .container-home .menu div nav {
-    transform: translateX(30%);
+    width: 100%;
+    text-align: center;
   }
-}
+} */

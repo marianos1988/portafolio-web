@@ -8,7 +8,7 @@
 }
 
 .carousel-sys-gym-1 {
-    background-image: url("/src/img/proyectos/sys-gym1.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-gym1.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 }
 
 .carousel-sys-gym-2 {
-    background-image: url("/src/img/proyectos/sys-gym2.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-gym2.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@
     animation: aparecer .5s ease-in;
 }
 .carousel-sys-gym-3 {
-    background-image: url("/src/img/proyectos/sys-gym3.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-gym3.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@
     animation: aparecer .5s ease-in;
 }
 .carousel-sys-gym-4 {
-    background-image: url("/src/img/proyectos/sys-gym4.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-gym4.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@
     animation: aparecer .5s ease-in;
 }
 .carousel-sys-gym-5 {
-    background-image: url("/src/img/proyectos/sys-gym5.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-gym5.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
     animation: aparecer .5s ease-in;
 }
 .carousel-sys-gym-6 {
-    background-image: url("/src/img/proyectos/sys-gym6.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-gym6.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@
     animation: aparecer .5s ease-in;
 }
 .carousel-sys-gym-7 {
-    background-image: url("/src/img/proyectos/sys-gym7.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-gym7.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@
 }
 
 .carousel-jbombicino-1 {
-    background-image: url("/src/img/proyectos/jbombicino1.jpeg");
+    background-image: url("/src/assets/img/proyectos/jbombicino1.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@
     animation: aparecer .5s ease-in;
 }
 .carousel-jbombicino-2 {
-    background-image: url("/src/img/proyectos/jbombicino2.jpeg");
+    background-image: url("/src/assets/img/proyectos/jbombicino2.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@
     animation: aparecer .5s ease-in;
 }
 .carousel-jbombicino-3 {
-    background-image: url("/src/img/proyectos/jbombicino3.jpeg");
+    background-image: url("/src/assets/img/proyectos/jbombicino3.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@
     animation: aparecer .5s ease-in;
 }
 .carousel-sys-turnos-1 {
-    background-image: url("/src/img/proyectos/sys-turnos1.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-turnos1.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@
 }
 
 .carousel-sys-turnos-2 {
-    background-image: url("/src/img/proyectos/sys-turnos2.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-turnos2.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@
     animation: aparecer .5s ease-in;
 }
 .carousel-sys-turnos-3 {
-    background-image: url("/src/img/proyectos/sys-turnos3.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-turnos3.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@
     animation: aparecer .5s ease-in;
 }
 .carousel-sys-turnos-4 {
-    background-image: url("/src/img/proyectos/sys-turnos4.jpeg");
+    background-image: url("/src/assets/img/proyectos/sys-turnos4.jpeg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;

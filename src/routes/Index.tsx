@@ -1,6 +1,7 @@
 
 import "../styles/Index.css"
 import { ButtonIngresar } from '../components/ButtonIngresar'
+import imgIndex from "../assets/img/yo.jpg"
 
 export const Index = () => {
   return (
@@ -12,7 +13,8 @@ export const Index = () => {
       <section className="banner">
           
           <div className='card-index'>
-            <img className='foto-yo' src="http://localhost:5173/src/img/yo.jpg" alt="Foto de MSY" />
+            
+            <img className='foto-yo' src={imgIndex} alt="Foto de MSY" />
             <h3>Mariano Szencis Yans</h3>
             <h3>Web Developer</h3>
           </div>
@@ -23,7 +25,7 @@ export const Index = () => {
           <h2>Bienvenido!</h2>
           <h2>Portafolio MSY</h2>
           <p>
-            Soy un Desarrollador Full Stack y estoy encantado de poder mostrar mi talento en mi sitio web. Ingresa para ver que puedo hacer...
+            Soy un Desarrollador Full Stack y estoy encantado de poder mostrar mi talento en mi sitio web. Ingresa para conocerme mas...
           </p>
         </div>
       </section>
