@@ -67,7 +67,14 @@
 
 @media (min-width: 391px) AND (max-width: 464px) {
     .container-box-educacion .box-educacion:hover {
-        height: 180px;
+        height: 200px;
+    
+    }
+}
+
+@media (min-width: 465px) AND (max-width: 550px) {
+    .container-box-educacion .box-educacion:hover {
+        height: 210px;
     
     }
 }

@@ -64,10 +64,10 @@ export const Proyectos = () => {
               El proyecto esta subido en mi repositorio en GitHub.
               <br />
               <br />
-              Proyecto en Github: https://github.com/marianos1988/sys-turnos
+              Proyecto en Github: <a href="https://github.com/marianos1988/sys-turnos" target="_blank">https://github.com/marianos1988/sys-turnos</a>
               <br />
               <br />
-              Proyecto para probar (Solo Frontend): https://sys-turnos.netlify.app/
+              Proyecto para probar (Solo Frontend): <a href="https://sys-turnos.netlify.app" target="_blank">https://sys-turnos.netlify.app</a>
               </p>
             </div>
             <div className="carrousel-proyecto">

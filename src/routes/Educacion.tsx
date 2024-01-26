@@ -24,7 +24,7 @@ export const Educacion = () => {
                 <h2>Secundario Completo</h2>
                 <h3>Comercial N° 30 Esteban Agustin Gascón, Buenos Aires</h3>
               </div>
-            </div> 
+            </div>  
             <div className='box-educacion'>
               <div className='fechas-educacion'>Abr. 2023 - Actualidad</div>
               <div className='desc-educacion'>
