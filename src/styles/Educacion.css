@@ -58,7 +58,19 @@
     font-size: 22px;
   
 }
+@media (min-width: 360px) AND (max-width: 390px) {
+    .container-box-educacion .box-educacion:hover {
+        height: 235px;
+    
+    }
+}
 
+@media (min-width: 391px) AND (max-width: 464px) {
+    .container-box-educacion .box-educacion:hover {
+        height: 180px;
+    
+    }
+}
 @media (min-width: 360px) AND (max-width: 754px) {
     .container-educacion {
         height: 100%;
@@ -67,7 +79,10 @@
     .container-box-educacion .box-educacion {
 
         margin-bottom: 80px;
+
     }
+
+
 }
 
 @keyframes aparecerBorde {

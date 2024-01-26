@@ -23,7 +23,7 @@ export const Carousel = ({ cant, project }: Props) => {
   if(num === 1) setCantFotos(cant);
   else setCantFotos(cantFotos-1);
  }
-  
+   
   return (
     <div className="container-carousel">
       {
