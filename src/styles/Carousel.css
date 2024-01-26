@@ -176,6 +176,20 @@
     transition: all .5s ease-in;
 }
 
+@media (min-width:360px) AND (max-width: 430px) {
+    .container-carousel img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width:431px) AND (max-width: 520px) {
+    .container-carousel img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
 @keyframes aparecer {
     0% {
       opacity: 0;

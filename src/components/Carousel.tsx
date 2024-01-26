@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import "../styles/Carousel.css";
+import imgLeft from "../assets/izquierda.png"
+import imgRight from "../assets/derecha.png"
 
 type Props = {
     cant: number
@@ -29,8 +31,8 @@ export const Carousel = ({ cant, project }: Props) => {
           <a href={`/src/assets/img/proyectos/${project}${cantFotos}.jpeg`} target="_blank"><div className={`carousel-${project}-${cantFotos}`}></div></a>
         )
       }
-      <img src="/src/assets/izquierda.png" alt="Left" className='left' onClick={()=>nextTo(cantFotos)}/>
-      <img src="/src/assets/derecha.png" alt="Right" className='right' onClick={()=>previousTo(cantFotos)}/>
+      <img src={imgLeft} alt="Left" className='left' onClick={()=>nextTo(cantFotos)}/>
+      <img src={imgRight} alt="Right" className='right' onClick={()=>previousTo(cantFotos)}/>
     </div>
   )
 }
