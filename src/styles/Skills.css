@@ -4,11 +4,12 @@
     width: 100%;
     height: inherit;
     background-image: url("../assets/bg.jpg");
-    background-repeat: no-repeat;
+    background-size:auto;
+    background-repeat: repeat;
     transition: 0.5s;
     animation: aparecer .5s ease-in;
     padding-bottom: 30px;
-}
+} 
 
 .container-skills article h1 {
     margin: 25px;
