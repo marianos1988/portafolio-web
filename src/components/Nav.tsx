@@ -11,6 +11,7 @@ type Props = {
 
 
 export const Nav = ({ id,tittle,subtittle1,subtittle2,subtittle3 }: Props) => {
+  
   return (
     <div key={id}>
       <h2>{tittle}</h2>

@@ -8,7 +8,7 @@ type Props = {
     project: string
 }
 
-export const Carousel = ({ cant, project }: Props) => {
+export const Carousel = ({ cant, project }: Props) => { 
 
  const [cantFotos, setCantFotos ] = useState(1);
 

@@ -73,6 +73,29 @@ export const Proyectos = () => {
             <div className="carrousel-proyecto">
               <Carousel cant={4} project='sys-turnos'></Carousel>
             </div>
+          </div>
+
+          <div className='box-proyectos'>
+            <div className='desc-proyecto'>
+              <h4>Feb. 2024 - Feb. 2024</h4>
+              <h2>Sitio web www.elitefloorsco.com</h2>
+              <p>
+                Desarrollé una pagina web estática 100% personalizada y construida con HTML5, CSS, y Javascript para una empresa de EEUU.
+                <br />
+                Este proyecto es una gran muestra de como utilizo las aptitudes mencionadas.
+                <br />
+                El proyecto esta subido en mi repositorio en GitHub.
+                <br />
+                <br />
+                Proyecto en Github: <a href="https://github.com/marianos1988/elite-floors" target="_blank">https://github.com/marianos1988/elite-floors</a>
+                <br />
+                <br />
+                Proyecto para probar (Solo Frontend): <a href="https://www.elitefloorsco.com" target="_blank">https://www.elitefloorsco.com</a>
+                </p>
+            </div>
+            <div className="carrousel-proyecto">
+              <Carousel cant={8} project='elite-floors'></Carousel>
+            </div>
           </div> 
           
         </div>
