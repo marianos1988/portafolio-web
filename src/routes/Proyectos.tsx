@@ -90,7 +90,7 @@ export const Proyectos = () => {
                 Proyecto en Github: <a href="https://github.com/marianos1988/elite-floors" target="_blank">https://github.com/marianos1988/elite-floors</a>
                 <br />
                 <br />
-                Proyecto para probar (Solo Frontend): <a href="https://www.elitefloorsco.com" target="_blank">https://www.elitefloorsco.com</a>
+                Sitio web: <a href="https://www.elitefloorsco.com" target="_blank">https://www.elitefloorsco.com</a>
                 </p>
             </div>
             <div className="carrousel-proyecto">

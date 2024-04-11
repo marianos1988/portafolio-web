@@ -1,7 +1,8 @@
 import imgGithub from "../assets/Github.png"
 import imgEmail from "../assets/Email.png";
-import imgInstagram from "../assets/Instagram.png"
-import imgLinkedIn from "../assets/LinkedIn.png"
+import imgInstagram from "../assets/Instagram.png";
+import imgLinkedIn from "../assets/LinkedIn.png";
+import imgInstaBack from "../assets/img/img-insta-back.jpg"
 import "../styles/Card.css"
 
 type Props = {
@@ -55,7 +56,7 @@ export const Card = ({ tittle }: Props) => {
                   
                   ? (
                     <>
-                      <img className="img-perfil-instagram" src={"https://lh3.googleusercontent.com/okP6REqctlZugw9Jq3hrBkw4ABRNBm-MymhVxOzNuepgHmankDzIjCKy6E_FCpkwvwmxLQ=s85"} alt={tittle} />
+                      <img className="img-perfil-instagram" src={imgInstaBack} alt={tittle} />
                       <a href="https://www.instagram.com/mariano.floresta/" target='_blank'><div className='btn-acceder'>Ingresar a {tittle}</div></a>
                     </>
                     )
