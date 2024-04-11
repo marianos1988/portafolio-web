@@ -28,7 +28,7 @@ export const Carousel = ({ cant, project }: Props) => {
     <div className="container-carousel">
       {
         (cantFotos <= cant) && (
-          <a href={`/src/assets/img/proyectos/${project}${cantFotos}.jpeg`} target="_blank"><div className={`carousel-${project}-${cantFotos}`}></div></a>
+          <div className={`carousel-${project}-${cantFotos}`}></div>
         )
       }
       <img src={imgLeft} alt="Left" className='left' onClick={()=>nextTo(cantFotos)}/>

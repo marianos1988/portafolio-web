@@ -1,7 +1,6 @@
 
 import "../styles/Skills.css"
 import { ButtonVolver } from '../components/ButtonVolver';
-import Radio  from '@mui/material/Radio';
 import HTML from "../assets/img/logos/html5.png";
 import CSS from "../assets/img/logos/css.png";
 import javascript from "../assets/img/logos/javascript.png";
@@ -22,7 +21,7 @@ import pointBlack from "../assets/point-black.png";
           <div className='container-boton-volver'>
             <ButtonVolver></ButtonVolver>
           </div>
-          <h1>Mis Skills:</h1>
+          <h1>Skills:</h1>
           <div className='container-box-skills'>
             <div className='box-skills'>
               <div className='tittle-skills'>HTML5</div>
