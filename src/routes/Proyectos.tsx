@@ -97,6 +97,29 @@ export const Proyectos = () => {
               <Carousel cant={8} project='elite-floors'></Carousel>
             </div>
           </div> 
+
+          <div className='box-proyectos'>
+            <div className='desc-proyecto'>
+              <h4>Mar. 2024 - Abr. 2024</h4>
+              <h2>Sitio web www.mrfontaneria.com</h2>
+              <p>
+                Desarrollé una pagina web estática 100% personalizada y construida con HTML5, CSS, y Javascript para una empresa de España.
+                <br />
+                Este proyecto es una gran muestra de comsigo mejorando mis habilidades como desarrollador web.
+                <br />
+                El proyecto esta subido en mi repositorio en GitHub.
+                <br />
+                <br />
+                Proyecto en Github: <a href="https://github.com/marianos1988/mr-fontaneria" target="_blank">https://github.com/marianos1988/mr-fontaneria</a>
+                <br />
+                <br />
+                Sitio web: <a href="https://www.mrfontaneria.com/" target="_blank">https://www.mrfontaneria.com/</a>
+                </p>
+            </div>
+            <div className="carrousel-proyecto">
+              <Carousel cant={8} project='mr-fontaneria'></Carousel>
+            </div>
+          </div> 
           
         </div>
       </article>
